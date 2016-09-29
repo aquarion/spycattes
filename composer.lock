@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "52fa35ec3d2f19e6689144f699ebf803",
-    "content-hash": "13e306e9550d8bd455231bf52752832a",
+    "hash": "63008ec6ba405a6036b85610f1f90e0c",
+    "content-hash": "32df6fd91f424af98c67d54d6cfdb08b",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -209,6 +209,52 @@
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
             "time": "2015-07-03 13:48:55"
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "5.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "e0870d75c5798427acd3fffb91202529cd521868"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/e0870d75c5798427acd3fffb91202529cd521868",
+                "reference": "e0870d75c5798427acd3fffb91202529cd521868",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "apigen/apigen": "^4.1",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Twilio\\": "Twilio/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Twilio API Team",
+                    "email": "api@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "time": "2016-09-19 17:49:18"
         },
         {
             "name": "wildbit/postmark-php",
