@@ -16,7 +16,7 @@ $call = $client->calls->create(
     $_POST['PHONE'], // To
     "+441224393428", // From
     array(
-        "url" => "http://spycattes.aqxs.net/mp3.xml.php?mp3=".urlencode("http://aquarion.aqxs.net/some_music/gummi_bears_acapella.mp3"),
+        "url" => "http://spycattes.aqxs.net/mp3.xml.php?mp3=".urlencode("http://aquarion.aqxs.net/spycattes.mp3"),
     )
 );
 
